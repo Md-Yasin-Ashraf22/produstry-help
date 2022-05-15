@@ -1,0 +1,311 @@
+@media (min-width: 992px){
+/* header  responsive start */
+#top_header .top_left_header p {
+        font-size: 12px;   
+}
+
+/* header  responsive send */
+
+/* about  responsive start */
+#about .about_content ul.nav-tabs button {	
+	margin: 0 8px 5px 0;
+}
+/* about  responsive end */
+
+/* blog  responsive start */
+#blog .blog_slider_arrow_container .blog_slider_arrow a i {
+	width: 25px;
+	height: 25px;
+	line-height: 25px;	
+	font-size: 15px;
+}
+#blog .blog_slider_arrow_container .blog_slider_arrow.left {
+	left: 20px;
+}
+
+/* header  responsive  end */
+/* menu css start */
+#main_menu ul{
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease-out .4s;
+}
+
+#main_menu ul.active{
+    opacity: 1;
+    visibility: visible;
+}
+#nav .navbar-brand{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all ease-out .4s;
+}
+#nav .navbar-brand.active{
+    left: 0;
+    transform: initial;
+}
+/* menu end */
+}
+@media (min-width: 768px) and (max-width: 991.99px){
+    /* nav section responsive start */
+    #top_header .top_left_header p {
+        font-size: 12px;
+    }
+    .navbar-brand {
+        margin: auto;
+    }
+     /* nav section responsive end */
+    /* banner responsive start */
+    #banner .banner_content h3 {
+        text-align: center;
+    }
+    #banner .banner_content p {
+        text-align: center;
+    }
+    .banner_btn {
+        text-align: center;
+    }
+    /* banner responsive end */
+    /* service responsive start */
+    .slick-slide img {
+        display: inline;
+    }
+    /* service responsive end */
+    /* about responsive start */
+ 
+  
+    /* about responsive end */
+    /* portfolio responsive css start */
+    .portfolio_img {
+        margin-bottom: 25px;
+    }
+    /* portfolio responsive css end */
+    /* blog responsive css start */
+    #blog .blog_item .blog_content {    
+        padding: 12px;
+        padding-top: 122px;
+        border-top: 0;
+        transform: translateY(-50%);
+        opacity: 0;
+        visibility: hidden;
+        transition: var(--linear-medium);
+    }
+    #blog .blog_item .blog_content ul li {
+        padding: 2px;
+    }
+    #blog .blog_item .blog_content ul li a {
+        font-size: 10px;
+    }
+    /* blog responsive css end */
+    /* contact responsive css start */
+    #contact .latest_news .users_information .users_details p {
+        font-size: 12px;
+    }
+    /* contact responsive css start */
+}
+@media (min-width: 576px) and (max-width: 767.99px){
+    /* nav responsive css start */
+    #top_header .top_left_header{
+        text-align: center;
+    }
+    #top_header .top_right_header ul{
+        justify-content: center;
+    }
+    /* nav responsive css end */
+    /* banner responsive css start */
+    #banner .banner-slider .banner-slider-item {
+        height: 300px;
+        background-position: center !important;
+        background-size: cover !important;
+        position: relative;
+        z-index: 1;
+    }
+    #banner .banner_content h3 {
+        font-size: 20px;
+    }
+    #banner .banner_content p {
+        font-size: 13px;
+    }
+    #banner .banner_btn {
+        font-size: 12px;
+    }
+     /* banner responsive css end */
+       /* portfolio responsive css start */
+    .portfolio_img {
+        margin-bottom: 25px;
+    }
+    /* portfolio responsive css end */
+     /* blog responsive css start */
+     #blog .blog_item .blog_content {    
+        padding: 12px;
+        padding-top: 122px;
+        border-top: 0;
+        transform: translateY(-50%);
+        opacity: 0;
+        visibility: hidden;
+        transition: var(--linear-medium);
+    }
+    #blog .blog_item .blog_content ul li {
+        padding: 2px;
+    }
+    #blog .blog_item .blog_content ul li a {
+        font-size: 10px;
+    }
+    /* blog responsive css end */
+    /* testimonial responsive css start */
+    #testimonial .testimonial_slider .testimonial_slider_item {
+         display: initial; 
+    }
+    #testimonial .testimonial_main_content .testimonial_content .testimonial_content_item p {
+        width: initial; 
+    }
+    /* testimonial responsive css end */
+    #contact .latest_news .users_information .users_details p {
+        font-size: 8px;
+    }
+    /* contact responsive css start */
+}
+@media (max-width: 575.99px){
+ /* nav responsive css start */
+ #top_header .top_left_header{
+    text-align: center;
+}
+#top_header .top_right_header ul{
+    justify-content: center;
+}
+ #top_header .top_mid_header {
+	background: var(--secondary-color);
+	color: var(--light-text);
+	padding: 10px;
+	transform: initial;
+}
+#top_header .top_mid_header p {
+	text-align: center;
+	transform: initial;
+}
+ /* nav responsive css end */
+ /* banner responsive css start */
+ #banner .banner-slider .banner-slider-item {
+    height: 300px;
+    background-position: center !important;
+    background-size: cover !important;
+    position: relative;
+    z-index: 1;
+}
+#banner .banner_content h3 {
+    font-size: 20px;
+}
+#banner .banner_content p {
+    font-size: 13px;
+}
+#banner .banner_btn {
+    font-size: 12px;
+}
+ /* banner responsive css end */
+   /* portfolio responsive css start */
+   .portfolio_img {
+    margin-bottom: 25px;
+}
+/* portfolio responsive css end */
+/* counter up responsive css start */
+#counter_up .counter_up_content p {
+	font-size: 14px;
+}
+/* counter up responsive css end */
+    /* testimonial responsive css start */
+    #testimonial .testimonial_slider .testimonial_slider_item {
+        display: initial; 
+   }
+   #testimonial .testimonial_main_content .testimonial_content .testimonial_content_item p {
+       width: initial; 
+   }
+   /* testimonial responsive css end */
+   /* contact responsive css start */
+   #contact .latest_news .users_information .users_details p {
+    font-size: 8px;
+   }
+      /* contact responsive css end*/
+}
+@media (max-width: 320px){
+    /* banner responsive css start */
+    #banner .banner-slider .banner-slider-item {
+        height: 190px;
+        background-position: center !important;
+        background-size: cover !important;
+        position: relative;
+        z-index: 1;
+    }
+    #banner .banner_content h3 {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    #banner .banner_content p {
+        font-size: 12px;
+        padding-bottom: 23px;
+    }
+    #banner .banner_content .banner_btn a {
+        position: relative;
+        padding: 10px 10px;
+        color: #fff;
+        transition: var(--linear-medium);
+        margin-right: 18px;
+        border: 1px solid #ddd;
+        z-index: 1;
+    }
+    /* banner responsive css end */
+    /* our service responsive start */
+    .sec_ttl h3 {
+        font-size: 28px;
+    }
+    .sec_ttl p {
+        font-size: 12px;
+    }
+    /* our service responsive end */
+    /* blog responsive css start */
+    #blog .blog_item .blog_content ul li {
+        padding: 5px;
+    }
+    #blog .blog_item .blog_content ul li a {
+        font-size: 10px;
+        color: #555;
+    }
+    /* blog responsive css end */
+    /* testimonial slider responsive start */
+    .testimonial_slider_item.slick-slide.slick-current.slick-active.slick-center {
+        width: 105px;
+    }
+    .testimonial_slider_item.slick-slide.slick-cloned.slick-active {
+        width: 105px;
+    }
+    /* testimonial slider responsive end */
+    /* contact responsive start */
+    #contact .contact_us .contact_item a i {
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        line-height: 25px;
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        border-radius: 50%;
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    #contact .social_section .social_icon ul li a i {
+        width: 23px;
+        height: 23px;
+        text-align: center;
+        line-height: 23px;
+        background-color: var(--text-color);
+        color: var(--secondary-color);
+        margin-right: 10px;
+        border-radius: 50%;
+        font-size: 20px;
+        transition: var(--linear-fast);
+    }
+    #contact .contact_us .contact_item p {
+        font-size: 11px;
+        color: var(--text-color);
+    }
+    /* cpntact responsive end */
+}
